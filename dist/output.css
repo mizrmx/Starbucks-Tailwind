@@ -760,6 +760,46 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@font-face 
+{
+  font-family: NotoSansReg;
+
+  src: url("../public/NotoSans-Regular.ttf");
+}
+
+* 
+{
+  font-family: "NotoSansReg", sans-serif;
+}
+
+.bg-starGreen 
+{
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 233 226 / var(--tw-bg-opacity));
+}
+
+.bg-darkGreen 
+{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 57 50 / var(--tw-bg-opacity));
+}
+
+.text-white 
+{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-lightText 
+{
+  color: rgba(0,0,0, .58);
+}
+
+.text-titleText 
+{
+  color: rgba(0,0,0, .87);
+}
+
 .hover\:bg-slate-50:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
@@ -818,4 +858,3 @@ video {
     margin-right: 10rem;
   }
 }
-
