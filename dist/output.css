@@ -662,6 +662,10 @@ video {
   background-image: url('/public/images/3.jpg');
 }
 
+.bg-\[url\(\'\/public\/images\/4\.jpg\'\)\] {
+  background-image: url('/public/images/4.jpg');
+}
+
 .bg-contain {
   background-size: contain;
 }
