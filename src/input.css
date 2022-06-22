@@ -2,14 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-* 
+.bg-starGreen
 {
-    margin: 0;
-    font-family: "NotoSansReg", sans-serif;
+    --tw-bg-opacity: 1;
+    background-color: rgb(212 233 226 / var(--tw-bg-opacity));
 }
 
-@font-face 
+.bg-darkGreen 
 {
-    font-family: NotoSansReg;
-    src: url(../public/NotoSans-Regular.ttf);
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 57 50 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/public\/images\/1\.webp\'\)\]
+{
+    background-image: url(/public/images/1.webp);
+}
+
+.bg-\[url\(\'\/public\/images\/2\.webp\'\)\]
+{
+    background-image: url(/public/images/2.webp);
+}
+
+.bg-\[url\(\'\/public\/images\/3\.webp\'\)\]
+{
+    background-image: url(/public/images/3.jpg);
+}
+
+.bg-\[url\(\'\/public\/images\/3\.webp\'\)\]
+{
+    background-image: url(/public/images/4.jpg);
+}
+
+.bg-contain
+{
+    background-size: contain;
 }
